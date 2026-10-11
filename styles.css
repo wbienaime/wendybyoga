@@ -596,6 +596,13 @@ section {
   margin-bottom: 6px;
 }
 
+/* Stands in for .offering-price on cards that link out to book/pay
+   instead of showing a number */
+.offering-cta {
+  align-self: flex-start;
+  margin-bottom: 14px;
+}
+
 .offering-price {
   font-family: var(--font-heading);
   font-size: 2.2rem;
